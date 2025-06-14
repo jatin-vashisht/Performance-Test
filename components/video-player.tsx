@@ -40,6 +40,7 @@ export default function VideoPlayer() {
               size="lg"
               onClick={togglePlay}
               className="w-20 h-20 rounded-full bg-white/90 hover:bg-white text-gray-900 shadow-lg"
+              aria-label="Play Video"
             >
               <Play className="w-8 h-8 ml-1" />
             </Button>
